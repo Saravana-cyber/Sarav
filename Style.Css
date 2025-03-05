@@ -1,1 +1,88 @@
+/* பொதுவான அமைப்புகள் */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
 
+/* Dark Mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* உள்ளடக்க வடிவமைப்பு */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* வண்ணங்கள் */
+.bluetext {
+    color: #87CEEB;
+    font-size: 20px;
+}
+
+.redtext {
+    color: red;
+    font-size: 24px;
+}
+
+/* படங்கள் */
+.shop-image {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 15px;
+}
+
+.owner-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* முக்கிய தகவல்கள் */
+.highlight {
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 128, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Links */
+.links a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: white;
+    background: blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background: darkblue;
+}
+
+/* Dark Mode Toggle Button */
+.toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: gold;
+    border: none;
+    border-radius: 5px;
+}
